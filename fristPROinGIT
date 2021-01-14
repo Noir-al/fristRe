@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+<head>
+<title>The Web Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+ box-sizing: border-box;
+}
+<!-- Style the body -->
+body {
+ font-family:Aril;<!--,Helvetica,sans-serif;-->
+ margin: 0;
+ line-height: 1.5;
+ font-size:17px;
+}
+<!-- Header/(style) Title -->
+.header {
+ padding: 1px;
+ text-align: center;
+background:  white;
+ color: red;
+}
+/* Increase the font-size of the heading */
+.header h1 {
+ font-size: 60px;
+}
+<!-- Style the top navigation bar -->
+.navbar {
+ overflow: hidden;
+ background-color: #999999
+;
+}
+<!--Style the navigation bar links -->
+.navbar a {
+ float: left;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+}
+ <!-- Right-aligned link -->
+.navbar a.right {
+ float: right;
+}
+<!-- Change color on hover whene mouse move *  -->
+.navbar a:hover {
+ background-color: white;
+ color: black;
+}
+<!-- Column container -->
+.row {
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-wrap: wrap;
+ flex-wrap: wrap;
+}
+<!-- Create two unequal columns that sits next to each other -->
+<!-- Sidebar/main column -->
+.side {
+ -ms-flex: 30%; /* IE10 */
+ flex: 30%;
+ background-color: #999999;
+ padding: 20px;
+ color: white;
+}
+<!-- Main column -->
+.main {
+ -ms-flex: 70%; /* IE10 */
+ flex: 70%;
+ background-color: white;
+padding: 20px;
+
+}
+
+<!-- Box for table conntent-->
+.fakeimg {
+ background-color:  #1f3d7a;
+ width: 100%;
+padding: 20px;
+margin-bottom:20px;
+margin:20px;
+}
+
+<!-- Footer -->
+footer {
+ padding: 20px;
+ text-align:center;
+background: #999999;
+width: 100%;
+ color: white;
+}
+<!-- Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each
+other instead of next to each other -->
+@media screen and (max-width: 800px) {
+ .row {
+ flex-direction: column;
+ }
+}
+<!-- Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of
+each other instead of next to each other -->
+@media screen and (max-width: 400px) {
+ .navbar a {
+ float: none;
+ width: 100%;
+ }
+
+ }
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<a href="#"><strong>Home</strong></a>
+ <a href="#"><strong>About</strong></a>
+ <a href="#"><strong>Support</strong></a>
+ <a href="#" class="right"><strong>Partner With Us</strong></a>
+</div>
+<div class="header">
+ <h1>Ethical Hacker</h1>
+ <p>Ethical hacking (also known as pen testing or penetration testing).</p>
+ <section>
+ <img class="mySlides" src="Ethicalpic1.jpg" style="width:100%">
+ <img class="mySlides" src="Ethicalpic2.jpg" style="width:100%" >
+ <img class="mySlides" src="ethical_hacker99.png" style="width:100%" >
+</section>
+ </div>
+<div class="row">
+ <div class="side">
+ <h2>The goal of this article</h2>
+ <h3>After reading this article you will be able to..</h3>
+ <div class="fakeimg" style="height:60px;">learing about hacker types.</div><br>
+ <div class="fakeimg" style="height:60px;">Understand the meaning of an ethical hacker. </div><br>
+<div class="fakeimg" style="height:60px;"> knowing Why is ethical hacking important?</div><br>
+<div class="fakeimg" style="height:60px;">learing about Ethical hacker types. </div><br>
+<div class="fakeimg" style="height:60px;">learing about benefite of ethical hacking.</div><br>
+
+ </div>
+ <div class="main">
+ <h2>Introduction </h2>
+ <div >When people hear the term hacking, they often think of someone infecting their computer
+ with a virus, crashing a network and stealing money, or holding a company hostage from their daily
+ operations with ransomware. Most people do not know that ethical hackers are people who are hired to
+ think like a hacker or bad actor. They meticulously probe a company's systems to find any weaknesses
+ and bring them to the attention of the business before the bad actors exploit them. Ethical hacking is an investment that companies
+ in the modern world can't afford to do without.
+ <br>
+ </div>
+   <h1> Types of <strong><i> Hackers:</strong></i></h1>
+       <p>The act of hacking is an exciting feeling and one can easily turn
+	   to the bad side of hacking by involving in illegal activities;thus it's
+	   very important that as a beginner you decide the type of hacking activities you
+	   will like to be involved.Here are some few insights into the type of hackers out there
+	   in the world and i hope this helps you to decide!</p><br>
+	   <p>There are mainly three types of hackers and these include: </p><br>
+
+                <img src="tyypeHACKER.png" alt="WhiteHat" width="80%">
+		    <h2>Black Hat Hacker</h2>
+<p> Contrary to an ethical hacker, black hat hackers or non-ethical
+      hackers perform hacking to fulfill
+	  their selfish intentions to collect monetary benefits..</p>
+	         <h2>Grey Hat Hacker</h2>
+<p> Grey hat hackers are the combination of white and black hat hackers.
+They hack without any malicious intention for fun. They perform the hacking without any approval
+from the targeted organization..</p>
+
+<h2>White Hat Hacker</h2>
+<p>Ethical hackers or white hat hackers do not intend to harm the system
+ or organization but they do so, officially, to penetrate and locate the vulnerabilities,
+ providing solutions to fix them and ensure safety.. </p>
+
+
+ <h1>What is the <strong><i> Ethical hacking ? </strong></i> </h1>
+ <p> An ethical hacker, also referred to as a white hat hacker, is an information security expert who systematically attempts to penetrate a computer system, network, application or other computing resource on behalf of its owners -- and with their permission -- to find security vulnerabilities that a malicious hacker could potentially exploit.
+The purpose of ethical hacking is to evaluate the security of and identify vulnerabilities in systems, networks or system infrastructure. It includes finding and attempting to exploit any vulnerabilities to determine whether unauthorized access or other malicious activities are possible.
+</p>
+ <h1>Types of <strong><i> Ethical hacker:</strong></i></h1>
+ <p> It is no big secret that any system, process, website, device, etc., can be hacked. In
+ order to understand how the hack might happen and what the damage could be, ethical hackers must know how to think like malicious
+ hackers and know the tools and techniques they are likely to use.</p>
+ <center> <img src="what-is-ethical-hacking-types-1024x213.jpg" alt="Types of Ethical hacker" width="90%" > </center>
+ <div >
+ <h1> Why is <strong><i> Ethical hacking important?</strong></i></h1>
+ <p class= >There is no doubt that information is the most valuable asset in today’s business environment. From government agencies to private companies, all kinds and sizes of organizations deal with massive amounts of sensitive and valuable data on a daily basis. As a result, they are often targeted by terrorist groups, hacker teams, cyber criminals and such.
+In order to be safe and protected, organisations of all sizes take numerous security measures but simply locking your doors and shutting your windows can’t ensure your safety. In today’s world, organizations need to take proactive measures and update their security on a regular basis. Every day, hackers find new methods to penetrate through the barriers of firewalls, antivirus software and such, so your organization needs to keep up.
+Ethical hackers, or white hat hackers, offer a new approach to safety. In order to test your security measures, they perform ‘pen tests’ on your organisation. In other words, they ‘hack’ your systems for you and provide you with insight and valuable information regarding your organization’s security posture. As a result, you catch the opportunity to see your organization from the perspective of a hacker without facing actual threats like sensitive data theft.
+When you know how hackers see and approach your organization, you can update your security measures accordingly. Thus, you can make sure that the walls around your organization are thick and protective enough.
+There is no doubt that information is the most valuable asset in today’s business environment. From government agencies to private companies, all kinds and sizes of organizations deal with massive amounts of sensitive and valuable data on a daily basis. As a result, they are often targeted by terrorist groups, hacker teams, cyber criminals and such.
+In order to be safe and protected, organisations of all sizes take numerous security measures but simply locking your doors and shutting your windows can’t ensure your safety. In today’s world, organizations need to take proactive measures and update their security on a regular basis. Every day, hackers find new methods to penetrate through the barriers of firewalls, antivirus software and such, so your organization needs to keep up.
+Ethical hackers, or white hat hackers, offer a new approach to safety. In order to test your security measures, they perform ‘pen tests’ on your organisation. In other words, they ‘hack’ your systems for you and provide you with insight and valuable information regarding your organization’s security posture. As a result, you catch the opportunity to see your organization from the perspective of a hacker without facing actual threats like sensitive data theft.
+When you know how hackers see and approach your organization, you can update your security measures accordingly. Thus, you can make sure that the walls around your organization are thick and protective enough.
+ </p><br>
+ <h1>Benefite of <strong><i>Ethical hacking.</strong></i></h1>
+ <p> The primary benefit of ethical hacking is to prevent data from being stolen
+ and misused by malicious attackers, as well as :    </p><br>
+<li>Discovering vulnerabilities from an attacker’s POV so that weak points can be fixed. </li><br>
+<li>Implementing a secure network that prevents security breaches. </li> <br>
+<li>Defending national security by protecting data from terrorists. </li><br>
+<li>Gaining the trust of customers and investors by ensuring the security of their products and data. </li><br>
+<li>Helping protect networks with real-world assessments. </li><br>
+
+
+
+
+</div>
+</div>
+
+<!--use DataBase-->
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ myIndex++;
+ if (myIndex > x.length) {myIndex = 1}
+ x[myIndex-1].style.display = "block";
+ setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
